@@ -7,7 +7,7 @@ The application has been trained on VGG flowers dataset and leverages off-the-sh
 The codebase includes 
 1. a Jupyter notebook version and 
 2. a command line version that has a 
-  a. training section: that takes in parameters like convoluted net architecture for feature extraction, number of hidden units, epochs        and learning rate for classification and saves the trained model/checkpoint in the specified location. Model can be also be run on a      GPU.
+  a. training section: that takes in parameters like convoluted net architecture for feature extraction, number of hidden units, epochs and learning rate for classification and saves the trained model/checkpoint in the specified location. Model can be also be run on a GPU.
   b. prediction section: that takes in a sample image and the checkpoint location and returns the class it belongs to.
   
 On training, the model was able to achieve 83% accuracy.
